@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C78A658286321050072CA4D /* IDCapture_Swift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C78A652286320FA0072CA4D /* IDCapture_Swift.xcframework */; };
+		0C78A659286321050072CA4D /* IDCapture_Swift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C78A652286320FA0072CA4D /* IDCapture_Swift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C78A65A286321090072CA4D /* IDentitySDK_Swift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C78A653286321010072CA4D /* IDentitySDK_Swift.xcframework */; };
+		0C78A65B286321090072CA4D /* IDentitySDK_Swift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C78A653286321010072CA4D /* IDentitySDK_Swift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C78A65C2863210C0072CA4D /* SelfieCapture_Swift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C78A654286321010072CA4D /* SelfieCapture_Swift.xcframework */; };
+		0C78A65D2863210C0072CA4D /* SelfieCapture_Swift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C78A654286321010072CA4D /* SelfieCapture_Swift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0CA76AC3281C236800B23630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA76AC2281C236800B23630 /* AppDelegate.swift */; };
 		0CA76AC5281C236800B23630 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA76AC4281C236800B23630 /* SceneDelegate.swift */; };
 		0CA76AC7281C236800B23630 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA76AC6281C236800B23630 /* ViewController.swift */; };
 		0CA76ACA281C236800B23630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA76AC8281C236800B23630 /* Main.storyboard */; };
 		0CA76ACC281C236B00B23630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA76ACB281C236B00B23630 /* Assets.xcassets */; };
 		0CA76ACF281C236B00B23630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA76ACD281C236B00B23630 /* LaunchScreen.storyboard */; };
-		0CA76ADC281C2A0E00B23630 /* IDCapture_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA76AD7281C2A0800B23630 /* IDCapture_Swift.framework */; };
-		0CA76ADD281C2A0E00B23630 /* IDCapture_Swift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA76AD7281C2A0800B23630 /* IDCapture_Swift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0CA76AE1281C2A1200B23630 /* SelfieCapture_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA76AD6281C2A0800B23630 /* SelfieCapture_Swift.framework */; };
-		0CA76AE2281C2A1200B23630 /* SelfieCapture_Swift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA76AD6281C2A0800B23630 /* SelfieCapture_Swift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0CA76AE6281C341100B23630 /* KYCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA76AE5281C341100B23630 /* KYCViewController.swift */; };
 		0CA76AED281C679A00B23630 /* ResultScreenFor50.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA76AEB281C679A00B23630 /* ResultScreenFor50.swift */; };
 		0CA76AEE281C679A00B23630 /* ResultScreenFor50.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA76AEC281C679A00B23630 /* ResultScreenFor50.xib */; };
 		0CA76AF0281C699D00B23630 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA76AEF281C699D00B23630 /* Extensions.swift */; };
 		0CA76AF4281C6A6A00B23630 /* HostDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA76AF2281C6A6A00B23630 /* HostDataModel.swift */; };
 		0CA76AF5281C6A6A00B23630 /* ModelForResultScreenServiceId20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA76AF3281C6A6A00B23630 /* ModelForResultScreenServiceId20.swift */; };
-		0CC5BC30281C78C800267947 /* IDentitySDK_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC5BC2E281C78C100267947 /* IDentitySDK_Swift.framework */; };
-		0CC5BC31281C78C800267947 /* IDentitySDK_Swift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC5BC2E281C78C100267947 /* IDentitySDK_Swift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E0FE70A04F94F9FEA292E969 /* Pods_SDK2Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3C3662F94E911AA4FA74E0 /* Pods_SDK2Sample.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,9 +35,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0CA76ADD281C2A0E00B23630 /* IDCapture_Swift.framework in Embed Frameworks */,
-				0CC5BC31281C78C800267947 /* IDentitySDK_Swift.framework in Embed Frameworks */,
-				0CA76AE2281C2A1200B23630 /* SelfieCapture_Swift.framework in Embed Frameworks */,
+				0C78A65B286321090072CA4D /* IDentitySDK_Swift.xcframework in Embed Frameworks */,
+				0C78A65D2863210C0072CA4D /* SelfieCapture_Swift.xcframework in Embed Frameworks */,
+				0C78A659286321050072CA4D /* IDCapture_Swift.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,6 +45,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C78A652286320FA0072CA4D /* IDCapture_Swift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = IDCapture_Swift.xcframework; sourceTree = "<group>"; };
+		0C78A653286321010072CA4D /* IDentitySDK_Swift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = IDentitySDK_Swift.xcframework; sourceTree = "<group>"; };
+		0C78A654286321010072CA4D /* SelfieCapture_Swift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SelfieCapture_Swift.xcframework; sourceTree = "<group>"; };
 		0CA76ABF281C236800B23630 /* SDK2Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDK2Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA76AC2281C236800B23630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CA76AC4281C236800B23630 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,15 +56,12 @@
 		0CA76ACB281C236B00B23630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CA76ACE281C236B00B23630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CA76AD0281C236B00B23630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CA76AD6281C2A0800B23630 /* SelfieCapture_Swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SelfieCapture_Swift.framework; sourceTree = "<group>"; };
-		0CA76AD7281C2A0800B23630 /* IDCapture_Swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDCapture_Swift.framework; sourceTree = "<group>"; };
 		0CA76AE5281C341100B23630 /* KYCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYCViewController.swift; sourceTree = "<group>"; };
 		0CA76AEB281C679A00B23630 /* ResultScreenFor50.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultScreenFor50.swift; sourceTree = "<group>"; };
 		0CA76AEC281C679A00B23630 /* ResultScreenFor50.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultScreenFor50.xib; sourceTree = "<group>"; };
 		0CA76AEF281C699D00B23630 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0CA76AF2281C6A6A00B23630 /* HostDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostDataModel.swift; sourceTree = "<group>"; };
 		0CA76AF3281C6A6A00B23630 /* ModelForResultScreenServiceId20.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelForResultScreenServiceId20.swift; sourceTree = "<group>"; };
-		0CC5BC2E281C78C100267947 /* IDentitySDK_Swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDentitySDK_Swift.framework; sourceTree = "<group>"; };
 		5E3C3662F94E911AA4FA74E0 /* Pods_SDK2Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDK2Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B8064304BDE07DBC36357D9 /* Pods-SDK2Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDK2Sample.debug.xcconfig"; path = "Target Support Files/Pods-SDK2Sample/Pods-SDK2Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		DD0DF6BACBF777BA9F6BFCD6 /* Pods-SDK2Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDK2Sample.release.xcconfig"; path = "Target Support Files/Pods-SDK2Sample/Pods-SDK2Sample.release.xcconfig"; sourceTree = "<group>"; };
@@ -72,10 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CA76ADC281C2A0E00B23630 /* IDCapture_Swift.framework in Frameworks */,
-				0CA76AE1281C2A1200B23630 /* SelfieCapture_Swift.framework in Frameworks */,
+				0C78A65A286321090072CA4D /* IDentitySDK_Swift.xcframework in Frameworks */,
 				E0FE70A04F94F9FEA292E969 /* Pods_SDK2Sample.framework in Frameworks */,
-				0CC5BC30281C78C800267947 /* IDentitySDK_Swift.framework in Frameworks */,
+				0C78A65C2863210C0072CA4D /* SelfieCapture_Swift.xcframework in Frameworks */,
+				0C78A658286321050072CA4D /* IDCapture_Swift.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +140,9 @@
 		B54ED9D12CB7B7E1BC952DF2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0CA76AD7281C2A0800B23630 /* IDCapture_Swift.framework */,
-				0CC5BC2E281C78C100267947 /* IDentitySDK_Swift.framework */,
-				0CA76AD6281C2A0800B23630 /* SelfieCapture_Swift.framework */,
+				0C78A652286320FA0072CA4D /* IDCapture_Swift.xcframework */,
+				0C78A653286321010072CA4D /* IDentitySDK_Swift.xcframework */,
+				0C78A654286321010072CA4D /* SelfieCapture_Swift.xcframework */,
 				5E3C3662F94E911AA4FA74E0 /* Pods_SDK2Sample.framework */,
 			);
 			name = Frameworks;
