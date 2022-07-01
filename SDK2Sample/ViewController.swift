@@ -66,16 +66,29 @@ class ViewController: UIViewController, UITextFieldDelegate {
             return
         }
         
-        //UICustomization method
-        SDKUICustomization()
+        //SDK Customization method
+        SDKCustomization()
         
         //SDKInitialization method
         SDKInitializationAPICall(templateModelURL: templateModelURL, baseAPIURLURL: baseAPIURLURL, theLoginID: theLoginID, thePassword: thePassword, theMerchantID: theMerchantID)
 
     }
     
-    func SDKUICustomization() {
+    func SDKCustomization() {
         
+        //IDCapture Customization
+        IDCapture.options.frontRealnessThreshold = 0.5
+        IDCapture.options.backRealnessThreshold = 0.3
+        IDCapture.options.frontDocumentConfidence = 0.7
+        IDCapture.options.backDocumentConfidence = 0.7
+        IDCapture.options.lowerWidthThresholdTolerance = 0.4
+        IDCapture.options.upperWidthThresholdTolerance = 0.1
+        IDCapture.options.isDebugMode = true
+        IDCapture.options.enableInstructionScreen = true
+        IDCapture.options.enableRealId = true
+        IDCapture.options.uploadIdData = true
+        IDCapture.options.capture4K = true
+
         //IDCapture Camera Screen Customization
         IDCapture.strings.captureFront = "Capture Front Side"
         IDCapture.strings.captureBack = "Capture Back Side"
@@ -106,7 +119,23 @@ class ViewController: UIViewController, UITextFieldDelegate {
         IDCapture.fonts.retryScreenLabelFont = UIFont.systemFont(ofSize: 16)
         IDCapture.fonts.retryScreenButtonFont = UIFont.systemFont(ofSize: 14)
 
-        
+        //SelfieCapture Customization
+        SelfieCapture.options.minFaceWidth = 0.6
+        SelfieCapture.options.eyeOpenProbability = 0.4
+        SelfieCapture.options.minHeadEulerAngle = -10
+        SelfieCapture.options.maxHeadEulerAngle = 10
+        SelfieCapture.options.minRelativeNoseHeight = 0.48
+        SelfieCapture.options.maxRelativeNoseHeight = 0.67
+        SelfieCapture.options.labelsConfidenceThreshold = 0.79
+        SelfieCapture.options.faceMaskProbabilityThreshold = 0.79
+        SelfieCapture.options.liveFaceProbabilityThreshold = 0.9
+        SelfieCapture.options.consecutiveFakeFaceLimit = 10
+        SelfieCapture.options.lightIntensityThreshold = 0.05
+        SelfieCapture.options.isDebugMode = true
+        SelfieCapture.options.enableInstructionScreen = true
+        SelfieCapture.options.capture4K = false
+        SelfieCapture.options.uploadFaceData = true
+
         //SelfieCapture Camera Screen Customization
         SelfieCapture.strings.alignOval = "Aligh your face inside oval"
         SelfieCapture.strings.moveAway = "Move ID Away"
@@ -124,7 +153,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         SelfieCapture.strings.moveFaceDown = "Move face Down"
         SelfieCapture.strings.capturingFace = "Capturing Face"
         SelfieCapture.strings.tooMuchLight = "Too much light around face"
-        SelfieCapture.colors.backgroundColor = .white
+        SelfieCapture.colors.backgroundColor = .clear
         SelfieCapture.colors.successLabelBackgroundColor = .green
         SelfieCapture.colors.errorLabelBackgroundColor = .red
         SelfieCapture.colors.successLabelTextColor = .white
