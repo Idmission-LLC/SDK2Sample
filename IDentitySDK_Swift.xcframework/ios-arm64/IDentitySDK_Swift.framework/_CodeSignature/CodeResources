@@ -30,7 +30,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		9hfw/ZwbDd9GIvYcvYahcv6jQl8=
+		Q8pxIOtejxPFw127NYi9lXxEr4Q=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/IDentitySDK_Swift-Swift.h</key>
 		<data>
-		ZDC08uCN1TFP4TP/b5iFO0VCQx4=
+		2jvzlUkiwW6NzutJBkyUr/kGLKM=
 		</data>
 		<key>Headers/IDentitySDK_Swift.h</key>
 		<data>
@@ -202,11 +202,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		l803BUFOTVbddyaD4P7iiJwqDUE=
+		VMkF5Hcb3q81MSerofCQrwzKBhE=
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		Q+5pF0gDZ712NVr+Y55JQO/BX5U=
+		bntagvjXMtYBlfOd+8rbK3+bBx8=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -242,7 +242,7 @@
 		</data>
 		<key>MLKitImageLabelingResources.bundle/Info.plist</key>
 		<data>
-		5P2QQO57wL1TUkxjRtKBpcOlvUI=
+		ajlmDrxcu2tPtNxHsGevmJo2Gn0=
 		</data>
 		<key>MLKitImageLabelingResources.bundle/mobile_ica_8bit_with_metadata.tflite</key>
 		<data>
@@ -250,7 +250,7 @@
 		</data>
 		<key>MLKitObjectDetectionCommonResources.bundle/Info.plist</key>
 		<data>
-		wSn2Q/1k29CfzP99uxFO7rTz9Vw=
+		TvyapAoOKI8gMPNa6zpwGwQWgLg=
 		</data>
 		<key>MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_3_1_anchors.pb</key>
 		<data>
@@ -266,19 +266,19 @@
 		</data>
 		<key>Modules/IDentitySDK_Swift.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		gx8n4zYbPU+C34rKTqIyFRHzPK4=
+		vu722LYkrsndv6OBPjRC7JCWLPE=
 		</data>
 		<key>Modules/IDentitySDK_Swift.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		QV6iK+RhkuzWvqsoWsGIRtPfNg0=
+		60sJwCqi0/UoNVMDQqozCpIekOw=
 		</data>
 		<key>Modules/IDentitySDK_Swift.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		WUu0hU95Z70d7za2uNXiPN+Rack=
+		pslo8qEi3+7VDzSXIdlyneQmhls=
 		</data>
 		<key>Modules/IDentitySDK_Swift.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		U+GyGkYmDFdsfcy6/h4fJzO9qp4=
+		5LlMzjG6NQpBTliL2oKuLzd/CZU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -337,7 +337,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XzEDReupuIIHn+SM36tuyJV9Gwi2J+pANugOrLoJ+t8=
+			e1p+dqhBVGWl/fEC+Rv5clJZn02AlzVqU3TlMFOBWQc=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -414,7 +414,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			03iy/4gRgUhshDhA7U47dkATVahQJ/Vskzk9CG12Gzc=
+			SjJ1e9VWsSO/LSUh8xBpGXEvuQXGTJqtd1LTNeeF1dI=
 			</data>
 		</dict>
 		<key>Headers/IDentitySDK_Swift.h</key>
@@ -638,7 +638,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OY2s6bp8bt3ooyuhyeBf5Qhiz06PCy3J3Q7BFcyQNYw=
+			Zzu6Ysuu/IfWPhrfJEzDbmRNH0yhWWZQ1EzZk9JVea8=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -701,7 +701,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LSBsstGWobAb9yZuzBpXg1McWdLnBr7g/05jDHrn8H0=
+			V0b3EWlBSZZsvBubzwj+D7oPJiNch6dvK6tv1xHNbfk=
 			</data>
 		</dict>
 		<key>MLKitImageLabelingResources.bundle/mobile_ica_8bit_with_metadata.tflite</key>
@@ -715,7 +715,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+WWjBkOf+emHZo0r0Tu1Z6fuV3cN87FtNOnUwq4DPgA=
+			AN5y0UCyA79zF3hBbT9zQOVs0y5GtGls03oVXDMI1Lk=
 			</data>
 		</dict>
 		<key>MLKitObjectDetectionCommonResources.bundle/mobile_object_localizer_3_1_anchors.pb</key>
@@ -743,28 +743,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3nMm3Y45Ks+jvaZFl1wlWGtOA3DBTmq+eL3eGd+p1WU=
+			OzN6DiuFyGvH6hE4cwbPKfvhl0lXjij3ANi+q/M+9zQ=
 			</data>
 		</dict>
 		<key>Modules/IDentitySDK_Swift.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yFXaIJZvzKXQ9/Bny+Iv8kSr3puQ+rrlP2mmTyJYSg4=
+			imhWQCWqahJcpej1ddaxDCGtBS4d2sxFq2xB+gmAb5M=
 			</data>
 		</dict>
 		<key>Modules/IDentitySDK_Swift.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M6QSPHwoQAyt7dBgq1vqpSzhSUsrW9N8Jj/jVmgOfkU=
+			HHb7Amx4uZjqoBAQfN8lnDW9csXwPH/boSICAFFKGmg=
 			</data>
 		</dict>
 		<key>Modules/IDentitySDK_Swift.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UdX9jzEmkmSuPpeKtZ1ktpLrT1hFpGlgQeg0iAPAKbs=
+			vj49u7Q3sFBWNkevyoOTlBweRrpCm4wUbwdogSNJFGw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

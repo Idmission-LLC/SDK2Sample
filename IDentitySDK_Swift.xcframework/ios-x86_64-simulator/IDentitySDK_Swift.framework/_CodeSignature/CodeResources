@@ -30,7 +30,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		cQCXONGDCVQkrhXdk0LBC0g0Zmo=
+		ONNsBgv+DefgTAQn6i/+rk15HM0=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		Zv2lYfaC+Z1VlXhKq4QrOeYiVCo=
+		c3gxW+fEyoJm0Rl3lpD6oU6XRpk=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		0DPQM+ci3qtZfkM5+rg7agZxEVw=
+		wkALXjhh2p5GhBVmguoXM7H/amY=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Headers/IDentitySDK_Swift-Swift.h</key>
 		<data>
-		ZDC08uCN1TFP4TP/b5iFO0VCQx4=
+		2jvzlUkiwW6NzutJBkyUr/kGLKM=
 		</data>
 		<key>Headers/IDentitySDK_Swift.h</key>
 		<data>
@@ -222,15 +222,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RawOjWN1q1oJOaNZBYGhxfTVBYw=
+		q0Mp4UzXCXGoO9q00wG8JBZ+YgA=
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		1ccOX/rbMz+3UVcIcFxxgip9/s4=
+		aiJB3vDptLUW475u1kEqLQjHXWc=
 		</data>
 		<key>LatinOCRResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		bL+R1fTiiFhc6Jw2HnBv2d+wrL8=
+		4y2lc3li1rY3YJpFD5XNpkZQ5kI=
 		</data>
 		<key>LatinOCRResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -238,7 +238,7 @@
 		</data>
 		<key>LatinOCRResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		rUaorh506Cr2cGLgMTXrTrTKnLE=
+		r6UGep5O5EaMZnBbmnSOwmP2kjM=
 		</data>
 		<key>LatinOCRResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -282,11 +282,11 @@
 		</data>
 		<key>MLKitImageLabelingResources.bundle/Info.plist</key>
 		<data>
-		u7y/qUW9VECHrMJQfvLzqYl7/wI=
+		v8rUahFtBEOvYmB+aD2PWhVyP6A=
 		</data>
 		<key>MLKitImageLabelingResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		+4oShN3SzzeVRDgpfKxf6BW983I=
+		B32bA+6P/HhJ26KJt5nbF1BCZQQ=
 		</data>
 		<key>MLKitImageLabelingResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -294,7 +294,7 @@
 		</data>
 		<key>MLKitImageLabelingResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		BZLf+voSbJ1OfzqMuYtWUIByOUo=
+		N7JioD3aQTUGva0MfvXBrsGd7IA=
 		</data>
 		<key>MLKitImageLabelingResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -310,11 +310,11 @@
 		</data>
 		<key>MLKitObjectDetectionCommonResources.bundle/Info.plist</key>
 		<data>
-		CzVZm+xVRw7ZEWvOI4jYEvztUOQ=
+		FVNvdKYoi3WqoVHYSlTGJ7wkR44=
 		</data>
 		<key>MLKitObjectDetectionCommonResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		oYCr9nNMdF+zaACWxEUFF2azXzw=
+		7F9ZIjOZJ8JxTG7WCzA4t0nSq30=
 		</data>
 		<key>MLKitObjectDetectionCommonResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -322,7 +322,7 @@
 		</data>
 		<key>MLKitObjectDetectionCommonResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		tncO8q3YZ2Sm8qQZnAogWe+K0s8=
+		wRh3SrtK7ZxDdRjDJhi2HBJ3zAo=
 		</data>
 		<key>MLKitObjectDetectionCommonResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -346,19 +346,19 @@
 		</data>
 		<key>Modules/IDentitySDK_Swift.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		MHlxAIRj1+9iF3tC7FzYpgDVZxo=
+		T+fEVumDD46siJuM41gStBZmLYA=
 		</data>
 		<key>Modules/IDentitySDK_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vFoTBp9qkgNiaF1BdrJFnQYFkVI=
+		vV1AlL+j1w3GSzt2186eYem70eI=
 		</data>
 		<key>Modules/IDentitySDK_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qwni84xCNgGOCcAiKy4nODLeoVo=
+		+NnkoSOHLsd0bFKPCYV+02eJcQs=
 		</data>
 		<key>Modules/IDentitySDK_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ASQau9JukrnXIuyaZLl+DkGWZu8=
+		Owed12+m6NNeBHwk8HkZLzDxiGg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -417,7 +417,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YwtIG5ZZAPwW1BRJYZxCl9EDuoaA76gY+kKLPkEct2Q=
+			zlt1AI9tOI35uVw+qYFMqW/x9jcXVk/kNQzYZQt0H7g=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -445,7 +445,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rw8ZHydxFr4HVK1b2eVLSASBzy8oIyMDS6DW/zOQq4c=
+			oKD0QivK8sTs38Ts2dClgzj3PVLGnVW+MXlWPO/69QM=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -459,7 +459,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h2i0NcgLnWSzpi2Ueob8fGeo3OszunOnfWSL173b+90=
+			3Q4F03M81sRLCLa5huBWcgQ1l8vk3muZ+E6TP5duVxM=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/_CodeSignature/CodeResources</key>
@@ -529,7 +529,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			03iy/4gRgUhshDhA7U47dkATVahQJ/Vskzk9CG12Gzc=
+			SjJ1e9VWsSO/LSUh8xBpGXEvuQXGTJqtd1LTNeeF1dI=
 			</data>
 		</dict>
 		<key>Headers/IDentitySDK_Swift.h</key>
@@ -753,14 +753,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HIE1Gb5UCQlUlKHf8yJoYuQa/8/A5DvApI0JIhWxmZc=
+			cPaQyLhRA/l6onG0wcFxcn9JcgabpVM+tgtjopjfXP0=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a3HuBhiCTRPYDI+yipHxLLvB1eHVzzSYpsCnCL9c3hY=
+			d3KgnofY08+eVu/Qn6TRbgPYv0oxm09ipjK/6OwZCtA=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -774,7 +774,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UUdVSjHOb919ik7AKT27PzLeDT8azhoGEynNslsFYY0=
+			MungByLJAm7n+crzpL5lnl3L8WDDFTmTUlSWw4fknjg=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/_CodeSignature/CodeResources</key>
@@ -851,14 +851,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mWtbS660zmquLuetbVOmwoAU8TsKDKKM4xgvhPyyrs8=
+			Ch1O732YET92Qv+rp8x34pNSX0Col4e/dEw2XnuxBPg=
 			</data>
 		</dict>
 		<key>MLKitImageLabelingResources.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0txkm2f5RGdhkFj34v+LLubQm8qMzOSsx2DW+El7eLk=
+			yyZD+XN8yacUzAKeBdZpud6vUTQKVOXrsgy+cnAWjXU=
 			</data>
 		</dict>
 		<key>MLKitImageLabelingResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -872,7 +872,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sq188MwON4BOHMAxNArxd2TmkmClSNPMlgL3q64XPAI=
+			tOcOQ6Iba+wex9uHw0LtLo4YirTHtDwCOVBNlTfr0LU=
 			</data>
 		</dict>
 		<key>MLKitImageLabelingResources.bundle/_CodeSignature/CodeResources</key>
@@ -900,14 +900,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			782abjVkknSYxjuaII7W2NWNbUI8zjZNhTv1xM0MyR8=
+			RLStDbkUlx2t/DZoGWtCa3xh0pFMGjpIYabBMOilCrU=
 			</data>
 		</dict>
 		<key>MLKitObjectDetectionCommonResources.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6p1pKSzIpHZOYqmi8PRX/xQFEFsygUMj8woxqmMXCL8=
+			BPYjjvdEWXeamYhQo5Zv6cRFOGVTkZq03P6l2LJ3fOY=
 			</data>
 		</dict>
 		<key>MLKitObjectDetectionCommonResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -921,7 +921,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+A/CzAcmuk1HSCTYUsXSuZT6evsaCVO6AoB4/RAzyZQ=
+			KmsZxtMY0q4Qx7/l14fYFHFqjTRzLpAG7P/ZrHylx8c=
 			</data>
 		</dict>
 		<key>MLKitObjectDetectionCommonResources.bundle/_CodeSignature/CodeResources</key>
@@ -963,28 +963,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yAy5f3QE0W8dVCricLpSKXZf9f/sqskqDl2uDvSkltg=
+			9Lhqc8wM5poVUAcIMBmocoH7Xp7EKcFotydJGPlWe6o=
 			</data>
 		</dict>
 		<key>Modules/IDentitySDK_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mZHkzskDo84QkMsh2DGpRW4omBGmMTPfjyCcu65TRv4=
+			AWs+Sy90iuvIxM699VdTeb0mupDEwsG+AoOpj92zp2U=
 			</data>
 		</dict>
 		<key>Modules/IDentitySDK_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N9I0mv09OeZU0qBZvIk/vrLc4tSxorbChAnM9dPdSd8=
+			k4c12XGwkaZlvH/S4hJQzjHg34//Tw9QgBK2ng613Mk=
 			</data>
 		</dict>
 		<key>Modules/IDentitySDK_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FCHbG9ESyva2bpk56WBGT+a2nwrfgaejuRYRorfd35o=
+			F5BLGN/rFo/IvwDBPHe94sLYD3lkYczZdEEdSWIj7hY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
