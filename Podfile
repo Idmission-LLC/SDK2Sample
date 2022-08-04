@@ -6,12 +6,13 @@ target 'SDK2Sample' do
   use_frameworks!
 
   # Pods for SDK2Sample
-  pod 'TensorFlowLiteSwift'
-  pod 'GoogleMLKit/TextRecognition'
-  pod 'GoogleMLKit/FaceDetection'
-  pod 'GoogleMLKit/ImageLabeling'
-  pod 'ZXingObjC'
-  pod 'GZIP'
-  pod 'SSZipArchive'
+    pod 'IDentitySDK2.0'
+    pod 'TensorFlowLiteSwift'
+    pod 'GoogleMLKit/TextRecognition'
+    pod 'GoogleMLKit/FaceDetection'
+    pod 'GoogleMLKit/ImageLabeling'
+    pod 'ZXingObjC'
+    pod 'GZIP'
+    pod 'SSZipArchive'
 
 end
