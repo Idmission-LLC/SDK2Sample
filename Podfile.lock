@@ -1,19 +1,19 @@
 PODS:
-  - GoogleDataTransport (9.2.0):
+  - GoogleDataTransport (9.2.1):
     - GoogleUtilities/Environment (~> 7.7)
     - nanopb (< 2.30910.0, >= 2.30908.0)
     - PromisesObjC (< 3.0, >= 1.2)
-  - GoogleMLKit/FaceDetection (3.1.0):
+  - GoogleMLKit/FaceDetection (3.2.0):
     - GoogleMLKit/MLKitCore
-    - MLKitFaceDetection (~> 2.1.0)
-  - GoogleMLKit/ImageLabeling (3.1.0):
+    - MLKitFaceDetection (~> 2.2.0)
+  - GoogleMLKit/ImageLabeling (3.2.0):
     - GoogleMLKit/MLKitCore
-    - MLKitImageLabeling (~> 2.1.0)
-  - GoogleMLKit/MLKitCore (3.1.0):
-    - MLKitCommon (~> 7.0.0)
-  - GoogleMLKit/TextRecognition (3.1.0):
+    - MLKitImageLabeling (~> 2.2.0)
+  - GoogleMLKit/MLKitCore (3.2.0):
+    - MLKitCommon (~> 8.0.0)
+  - GoogleMLKit/TextRecognition (3.2.0):
     - GoogleMLKit/MLKitCore
-    - MLKitTextRecognition (~> 1.4.0-beta5)
+    - MLKitTextRecognition (~> 1.4.0-beta6)
   - GoogleToolboxForMac/DebugUtils (2.3.2):
     - GoogleToolboxForMac/Defines (= 2.3.2)
   - GoogleToolboxForMac/Defines (2.3.2)
@@ -26,22 +26,22 @@ PODS:
     - GoogleToolboxForMac/Defines (= 2.3.2)
     - "GoogleToolboxForMac/NSString+URLArguments (= 2.3.2)"
   - "GoogleToolboxForMac/NSString+URLArguments (2.3.2)"
-  - GoogleUtilities/Environment (7.7.0):
+  - GoogleUtilities/Environment (7.11.0):
     - PromisesObjC (< 3.0, >= 1.2)
-  - GoogleUtilities/Logger (7.7.0):
+  - GoogleUtilities/Logger (7.11.0):
     - GoogleUtilities/Environment
-  - GoogleUtilities/UserDefaults (7.7.0):
+  - GoogleUtilities/UserDefaults (7.11.0):
     - GoogleUtilities/Logger
   - GoogleUtilitiesComponents (1.1.0):
     - GoogleUtilities/Logger
   - GTMSessionFetcher/Core (1.7.2)
   - GZIP (1.3.0)
-  - IDCapture (9.3.1.50)
-  - IDentitySDK2.0 (9.3.1.50):
+  - IDCapture (9.4.8.2.1)
+  - IDentitySDK2.0 (9.4.8.2.1):
     - IDCapture
     - SelfieCapture
   - MLImage (1.0.0-beta3)
-  - MLKitCommon (7.0.0):
+  - MLKitCommon (8.0.0):
     - GoogleDataTransport (~> 9.0)
     - GoogleToolboxForMac/Logger (~> 2.1)
     - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
@@ -50,58 +50,54 @@ PODS:
     - GoogleUtilitiesComponents (~> 1.0)
     - GTMSessionFetcher/Core (~> 1.1)
     - Protobuf (~> 3.12)
-  - MLKitFaceDetection (2.1.0):
-    - MLKitCommon (~> 7.0)
-    - MLKitVision (~> 4.1)
-  - MLKitImageLabeling (2.1.0):
-    - MLKitCommon (~> 7.0)
-    - MLKitImageLabelingCommon (~> 4.1)
-    - MLKitVision (~> 4.1)
-    - MLKitVisionKit (~> 5.1)
-  - MLKitImageLabelingCommon (4.1.0):
-    - MLKitCommon (~> 7.0)
-    - MLKitVision (~> 4.1)
-  - MLKitObjectDetectionCommon (4.1.0):
-    - MLKitCommon (~> 7.0)
-    - MLKitVision (~> 4.1)
-  - MLKitTextRecognition (1.4.0-beta5):
-    - MLKitCommon (~> 7.0)
-    - MLKitTextRecognitionCommon (= 1.0.0-beta5)
-    - MLKitVision (~> 4.1)
-  - MLKitTextRecognitionCommon (1.0.0-beta5):
-    - MLKitCommon (~> 7.0)
-    - MLKitVision (~> 4.1)
-  - MLKitVision (4.1.0):
+  - MLKitFaceDetection (2.2.0):
+    - MLKitCommon (~> 8.0)
+    - MLKitVision (~> 4.2)
+  - MLKitImageLabeling (2.2.0):
+    - MLKitCommon (~> 8.0)
+    - MLKitImageLabelingCommon (~> 4.2)
+    - MLKitVision (~> 4.2)
+    - MLKitVisionKit (~> 5.2)
+  - MLKitImageLabelingCommon (4.2.0):
+    - MLKitCommon (~> 8.0)
+    - MLKitVision (~> 4.2)
+  - MLKitObjectDetectionCommon (4.2.0):
+    - MLKitCommon (~> 8.0)
+    - MLKitVision (~> 4.2)
+  - MLKitTextRecognition (1.4.0-beta6):
+    - MLKitCommon (~> 8.0)
+    - MLKitTextRecognitionCommon (= 1.0.0-beta6)
+    - MLKitVision (~> 4.2)
+  - MLKitTextRecognitionCommon (1.0.0-beta6):
+    - MLKitCommon (~> 8.0)
+    - MLKitVision (~> 4.2)
+  - MLKitVision (4.2.0):
     - GoogleToolboxForMac/Logger (~> 2.1)
     - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
     - GTMSessionFetcher/Core (~> 1.1)
     - MLImage (= 1.0.0-beta3)
-    - MLKitCommon (~> 7.0)
+    - MLKitCommon (~> 8.0)
     - Protobuf (~> 3.12)
-  - MLKitVisionKit (5.1.0):
-    - MLKitCommon (~> 7.0)
-    - MLKitImageLabelingCommon (~> 4.1)
-    - MLKitObjectDetectionCommon (~> 4.1)
-    - MLKitVision (~> 4.1)
+  - MLKitVisionKit (5.2.0):
+    - MLKitCommon (~> 8.0)
+    - MLKitImageLabelingCommon (~> 4.2)
+    - MLKitObjectDetectionCommon (~> 4.2)
+    - MLKitVision (~> 4.2)
   - nanopb (2.30909.0):
     - nanopb/decode (= 2.30909.0)
     - nanopb/encode (= 2.30909.0)
   - nanopb/decode (2.30909.0)
   - nanopb/encode (2.30909.0)
-  - PromisesObjC (2.1.1)
-  - Protobuf (3.21.4)
-  - SelfieCapture (9.3.1.50)
-  - SSZipArchive (2.4.3)
-  - TensorFlowLiteC (2.9.1):
-    - TensorFlowLiteC/Core (= 2.9.1)
-  - TensorFlowLiteC/Core (2.9.1)
-  - TensorFlowLiteSwift (2.9.1):
-    - TensorFlowLiteSwift/Core (= 2.9.1)
-  - TensorFlowLiteSwift/Core (2.9.1):
-    - TensorFlowLiteC (= 2.9.1)
-  - ZXingObjC (3.6.5):
-    - ZXingObjC/All (= 3.6.5)
-  - ZXingObjC/All (3.6.5)
+  - PromisesObjC (2.2.0)
+  - Protobuf (3.22.1)
+  - SelfieCapture (9.4.8.2.1)
+  - TensorFlowLiteC (2.7.0):
+    - TensorFlowLiteC/Core (= 2.7.0)
+  - TensorFlowLiteC/Core (2.7.0)
+  - TensorFlowLiteSwift (2.7.0):
+    - TensorFlowLiteSwift/Core (= 2.7.0)
+  - TensorFlowLiteSwift/Core (2.7.0):
+    - TensorFlowLiteC (= 2.7.0)
 
 DEPENDENCIES:
   - GoogleMLKit/FaceDetection
@@ -109,9 +105,7 @@ DEPENDENCIES:
   - GoogleMLKit/TextRecognition
   - GZIP
   - IDentitySDK2.0
-  - SSZipArchive
-  - TensorFlowLiteSwift
-  - ZXingObjC
+  - TensorFlowLiteSwift (~> 2.7.0)
 
 SPEC REPOS:
   trunk:
@@ -138,40 +132,36 @@ SPEC REPOS:
     - PromisesObjC
     - Protobuf
     - SelfieCapture
-    - SSZipArchive
     - TensorFlowLiteC
     - TensorFlowLiteSwift
-    - ZXingObjC
 
 SPEC CHECKSUMS:
-  GoogleDataTransport: 1c8145da7117bd68bbbed00cf304edb6a24de00f
-  GoogleMLKit: 9d072522949ff0ef4dae5359feaf3db2ef2fa658
+  GoogleDataTransport: ea169759df570f4e37bdee1623ec32a7e64e67c4
+  GoogleMLKit: 0017a6a8372e1a182139b9def4d89be5d87ca5a7
   GoogleToolboxForMac: 8bef7c7c5cf7291c687cf5354f39f9db6399ad34
-  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  GoogleUtilities: c2bdc4cf2ce786c4d2e6b3bcfd599a25ca78f06f
   GoogleUtilitiesComponents: 679b2c881db3b615a2777504623df6122dd20afe
   GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
   GZIP: 416858efbe66b41b206895ac6dfd5493200d95b3
-  IDCapture: 48a81e1fba15cb1a0a98bfd6bb7ac5512eff7d27
-  IDentitySDK2.0: c42670f1ae79e4492b957d632baf1279b55cbf00
+  IDCapture: 41dc505cb93c0c89ee102d3504d122a7c945ddf0
+  IDentitySDK2.0: bac97b5f65dbbeb4091d8a52b9ed9090149c3979
   MLImage: 489dfec109f21da8621b28d476401aaf7a0d4ff4
-  MLKitCommon: 20f4aca0ec2bb37cef2b9c211b50586817bac5d3
-  MLKitFaceDetection: 2698721de95805902cac5e018a01fe95dc76d615
-  MLKitImageLabeling: 776cfc464c4d8597f4f4b5d56a9020921a3ad069
-  MLKitImageLabelingCommon: c375a2e9b87b614fe1614f003171455751f39371
-  MLKitObjectDetectionCommon: 6cfa8926341cd835490b496116e2a1b797abf86e
-  MLKitTextRecognition: 46c6574e7db6452f5a426312c04a794c82d6fcf0
-  MLKitTextRecognitionCommon: 9f66172593cedc9654d56bf9b3d1044c054e2c41
-  MLKitVision: 639a171d937241f3fcf92bc1b3ef8f179f49916c
-  MLKitVisionKit: fb450e1ec0b7194aa898bf26b47df897dad93773
+  MLKitCommon: f6da6c5659618c070b50a80db01248ebe2964175
+  MLKitFaceDetection: 9f29d8d0bb38911281407e24e74d2e5da812ba8d
+  MLKitImageLabeling: 3a7c9b4ba2550c8a37d392c74b7d75c4c39aaa4c
+  MLKitImageLabelingCommon: 48a3d85b80a993edb168576f94192338e046a836
+  MLKitObjectDetectionCommon: 9fd75e357db52714013d9dda97a9f35e7b5d7d5b
+  MLKitTextRecognition: f6fda8923564f6cebe2bb952a1adb0414e1d731b
+  MLKitTextRecognitionCommon: 0c720ee45ffedb3a34f0e8b95764d2f57a108e71
+  MLKitVision: 96c96571190b7f63eddf4a12068ce8a8689e0d2c
+  MLKitVisionKit: bd7f84af2da356322872182b1f5bdf66f68e4584
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
-  PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
-  Protobuf: 85a48c73d708782e2869564c0438e211aae98e7a
-  SelfieCapture: b0eb035ae79d3edef58b1628a351b46f0ccdf698
-  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
-  TensorFlowLiteC: 0a765860195fae345ca7398e33b07c80104c4b61
-  TensorFlowLiteSwift: 0b584ad1fac27c0015609056a5ab4e7692bd1af3
-  ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
+  PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
+  Protobuf: d7f7c8329edf5eb8af65547a8ba3e9c1cee927d5
+  SelfieCapture: 3102f3f744d40a101c326de7a75a9c5a70b43ef4
+  TensorFlowLiteC: 50d75ed3640c15dcfbaf88ca4326297b445e00a1
+  TensorFlowLiteSwift: fe99748dc3d58ae08bd2ff38658e3ade7038670f
 
-PODFILE CHECKSUM: ab5dbed0e59b5d4ea2f4d75ebab64c14daef5939
+PODFILE CHECKSUM: ff8bff53fff2db1a636f2ce6f9cb620b737af886
 
 COCOAPODS: 1.11.3

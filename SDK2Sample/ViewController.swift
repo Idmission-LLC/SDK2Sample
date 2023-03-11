@@ -148,7 +148,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         SelfieCapture.strings.leftEyeClosed = "Left eye are closed"
         SelfieCapture.strings.rightEyeClosed = "right eye are closed"
         SelfieCapture.strings.faceMaskDetected = "Face mask detected"
-        SelfieCapture.strings.glassesDetected = "Glasses Detected"
+        SelfieCapture.strings.sunglassesDetected = "Glasses Detected"
         SelfieCapture.strings.removeHat = "hat Detected"
         SelfieCapture.strings.fakeFace = "Fake face Detected"
         SelfieCapture.strings.realFace = "real face Detected"

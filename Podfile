@@ -7,12 +7,10 @@ target 'SDK2Sample' do
 
   # Pods for SDK2Sample
     pod 'IDentitySDK2.0'
-    pod 'TensorFlowLiteSwift'
+    pod 'TensorFlowLiteSwift', '~> 2.7.0'
     pod 'GoogleMLKit/TextRecognition'
     pod 'GoogleMLKit/FaceDetection'
     pod 'GoogleMLKit/ImageLabeling'
-    pod 'ZXingObjC'
     pod 'GZIP'
-    pod 'SSZipArchive'
 
 end
