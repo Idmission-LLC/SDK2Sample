@@ -12,5 +12,6 @@ target 'SDK2Sample' do
     pod 'GoogleMLKit/FaceDetection'
     pod 'GoogleMLKit/ImageLabeling'
     pod 'GZIP'
+    pod 'OpenSSL-Universal', '1.1.180'
 
 end
