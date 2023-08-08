@@ -87,7 +87,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         IDCapture.options.upperWidthThresholdTolerance = 0.1
         IDCapture.options.isDebugMode = false
         IDCapture.options.enableInstructionScreen = true
-        IDCapture.options.enableRealId = true
+        IDCapture.options.enableRealId = false
         IDCapture.options.uploadIdData = true
         IDCapture.options.capture4K = true
 
