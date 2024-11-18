@@ -9,70 +9,75 @@ import UIKit
 import IDentitySDK_Swift
 
 class ViewController: UIViewController, UITextFieldDelegate {
-
-    @IBOutlet var templateURL_Textfield : UITextField!
-    @IBOutlet var apiBaseURL_Textfield : UITextField!
+    
+    //Token Generation TextField
+    @IBOutlet var authUrl_Textfield : UITextField!
     @IBOutlet var loginID_Textfield : UITextField!
     @IBOutlet var password_Textfield : UITextField!
     @IBOutlet var merchantID_Textfield : UITextField!
+    @IBOutlet var clientID_Textfield : UITextField!
+    @IBOutlet var clientSecret_Textfield : UITextField!
+    
+    //SDK Initialization TextField
+    @IBOutlet var apiBaseURL_Textfield : UITextField!
+    @IBOutlet var token_Textfield : UITextField!
+    
     @IBOutlet var activityIndicator : UIActivityIndicatorView!
     @IBOutlet var sdkVersion_Label : UILabel!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        templateURL_Textfield.delegate = self
         sdkVersion_Label.text = "SDK Version : " + IDentitySDK.version
     }
     
-    override func resignFirstResponder() -> Bool {
-        return true
-    }
-    
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
-        return true
+    override func viewWillAppear(_ animated: Bool) {
+        token_Textfield.text = ""
     }
     
     //Initialize SDK
-    @IBAction func initializeSDK(_ sender:Any) {
+    @IBAction func generateAccessTokenTapped(_ sender:Any) {
+        generateAccessToken()
+    }
+
+    //Initialize SDK
+    @IBAction func initializeSDKTapped(_ sender:Any) {
+        SDKInitializationAPICall()
+    }
+    
+}
+
+//MARK: - SDK Initialization Method
+extension ViewController {
         
-        //Validate the input data
-        guard let templateModelURL = templateURL_Textfield.text , !templateModelURL.isEmpty, !templateModelURL.trimmingCharacters(in: .whitespacesAndNewlines).elementsEqual("") else{
-                //Show alert
-            self.displayAlert(title: "URL Can't Be Empty", Message: "")
+    func SDKInitializationAPICall() {
+        
+        guard let apiBaseUrl = apiBaseURL_Textfield.text, apiBaseUrl != "" else {
+            displayAlert(title: "", Message: "Please enter valid ApiBaseUrl.")
             return
         }
-        
-        guard let baseAPIURLURL = apiBaseURL_Textfield.text , !baseAPIURLURL.isEmpty, !baseAPIURLURL.trimmingCharacters(in: .whitespacesAndNewlines).elementsEqual("") else{
-                //Show alert
-            self.displayAlert(title: "URL Can't Be Empty", Message: "")
+        guard let generatedToken = token_Textfield.text, apiBaseUrl != "" else {
+            displayAlert(title: "", Message: "Please enter valid token.")
             return
         }
-        
-        guard let theLoginID = loginID_Textfield.text , !theLoginID.isEmpty, !theLoginID.trimmingCharacters(in: .whitespacesAndNewlines).elementsEqual("") else{
-                //Show alert
-            self.displayAlert(title: "LoginID Can't Be Empty", Message: "")
-            return
-        }
-        
-        guard let thePassword = password_Textfield.text , !thePassword.isEmpty, !thePassword.trimmingCharacters(in: .whitespacesAndNewlines).elementsEqual("") else{
-                //Show alert
-            self.displayAlert(title: "Password Can't Be Empty", Message: "")
-            return
-        }
-        
-        guard let theMerchantID = merchantID_Textfield.text , !theMerchantID.isEmpty, !theMerchantID.trimmingCharacters(in: .whitespacesAndNewlines).elementsEqual("") else{
-                //Show alert
-            self.displayAlert(title: "MerchantID Can't Be Empty", Message: "")
-            return
-        }
-        
-        //SDK Customization method
+
+        self.activityIndicator.startAnimating()
+
+        //1. Customize SDK properties
         SDKCustomization()
         
-        //SDKInitialization method
-        SDKInitializationAPICall(templateModelURL: templateModelURL, baseAPIURLURL: baseAPIURLURL, theLoginID: theLoginID, thePassword: thePassword, theMerchantID: theMerchantID)
+        //2. initialize SDK
+        IDentitySDK.apiBaseUrl = apiBaseUrl
+        IDentitySDK.initializeSDK(accessToken: generatedToken) { error in
+            self.activityIndicator.stopAnimating()
+            if let error = error {
+                print("!!! initialize SDK ERROR: \(error.localizedDescription)")
+                self.displayAlert(title: "Error", Message: "SDK initialization credentials are not correct")
+            } else {
+                print("!!! initialize SDK SUCCESS")
+                self.performSegue(withIdentifier: "CompleteKYC_SegueID", sender: nil)
+            }
+        }
 
     }
     
@@ -180,27 +185,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         SelfieCapture.fonts.retryScreenButtonFont = UIFont.systemFont(ofSize: 14)
 
     }
-    
-    func SDKInitializationAPICall(templateModelURL:String, baseAPIURLURL:String, theLoginID:String, thePassword:String, theMerchantID:String) {
-        
-        self.activityIndicator.startAnimating()
 
-        IDentitySDK.initializeApiBaseUrl = templateModelURL
-        IDentitySDK.apiBaseUrl = baseAPIURLURL
-        
-        IDentitySDK.initializeSDK(loginId: theLoginID, password: thePassword, merchantId: theMerchantID) { error in
-            self.activityIndicator.stopAnimating()
-            if let error = error {
-                print("!!! initialize SDK ERROR: \(error.localizedDescription)")
-                self.displayAlert(title: "Error", Message: "SDK initialization credentials are not correct")
-            } else {
-                print("!!! initialize SDK SUCCESS")
-                self.performSegue(withIdentifier: "CompleteKYC_SegueID", sender: nil)
-            }
-        }
-
-    }
-    
     func displayAlert(title : String, Message:String){
         let alert = UIAlertController(title: title, message: Message, preferredStyle: .alert)
 
@@ -208,4 +193,18 @@ class ViewController: UIViewController, UITextFieldDelegate {
         alert.addAction(okAction)
         self.present(alert, animated: true)
     }
+}
+
+//MARK: - UITextfield Delegate Method
+extension ViewController {
+    
+    override func resignFirstResponder() -> Bool {
+        return true
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+
 }
