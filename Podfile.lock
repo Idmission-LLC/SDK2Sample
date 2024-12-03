@@ -33,8 +33,8 @@ PODS:
     - GoogleUtilities/Logger
   - GTMSessionFetcher/Core (3.5.0)
   - GZIP (1.3.2)
-  - IDCapture (9.6.22.2.9)
-  - IDentitySDK2.0 (9.6.22.2.9):
+  - IDCapture (9.6.24.2.5)
+  - IDentitySDK2.0 (9.6.24.2.5):
     - IDCapture
     - SelfieCapture
   - MLImage (1.0.0-beta5)
@@ -84,7 +84,7 @@ PODS:
   - nanopb/encode (2.30910.0)
   - OpenSSL-Universal (1.1.180)
   - PromisesObjC (2.4.0)
-  - SelfieCapture (9.6.22.2.9)
+  - SelfieCapture (9.6.24.2.5)
   - TensorFlowLiteC (2.7.0):
     - TensorFlowLiteC/Core (= 2.7.0)
   - TensorFlowLiteC/Core (2.7.0)
@@ -138,8 +138,8 @@ SPEC CHECKSUMS:
   GoogleUtilitiesComponents: 679b2c881db3b615a2777504623df6122dd20afe
   GTMSessionFetcher: 5aea5ba6bd522a239e236100971f10cb71b96ab6
   GZIP: 3c0abf794bfce8c7cb34ea05a1837752416c8868
-  IDCapture: da949c28f5c8680e04a36ad3ae3dc9636ab98b20
-  IDentitySDK2.0: 766f3ec015f651ee7078143c9dcbffc9a12f31f7
+  IDCapture: d6fc5608c9739f7283e35e3248edf45172c14aa7
+  IDentitySDK2.0: efd5ff0c99fa02592c92709990d0f8b941b02d55
   MLImage: 1824212150da33ef225fbd3dc49f184cf611046c
   MLKitCommon: afec63980417d29ffbb4790529a1b0a2291699e1
   MLKitFaceDetection: 7c0e8bf09ddd27105da32d088fca978a99fc30cc
@@ -153,7 +153,7 @@ SPEC CHECKSUMS:
   nanopb: 438bc412db1928dac798aa6fd75726007be04262
   OpenSSL-Universal: 1aa4f6a6ee7256b83db99ec1ccdaa80d10f9af9b
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
-  SelfieCapture: 3caaa2bdbba07667336941395267f39dd69c53b3
+  SelfieCapture: 406913fe1bce4681fc7baff1cd710fbdea6386da
   TensorFlowLiteC: 50d75ed3640c15dcfbaf88ca4326297b445e00a1
   TensorFlowLiteSwift: fe99748dc3d58ae08bd2ff38658e3ade7038670f
 
