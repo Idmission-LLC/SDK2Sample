@@ -12,6 +12,6 @@ target 'SDK2Sample' do
     pod 'GoogleMLKit/FaceDetection'
     pod 'GoogleMLKit/ImageLabeling'
     pod 'GZIP'
-    pod 'OpenSSL-Universal', '1.1.180'
+    pod 'OpenSSL-Universal', :git => 'https://github.com/krzyzanowskim/OpenSSL.git', :tag => '1.1.2301'
 
 end

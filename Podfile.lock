@@ -82,7 +82,7 @@ PODS:
     - nanopb/encode (= 2.30910.0)
   - nanopb/decode (2.30910.0)
   - nanopb/encode (2.30910.0)
-  - OpenSSL-Universal (1.1.180)
+  - OpenSSL-Universal (1.1.2301)
   - PromisesObjC (2.4.0)
   - SelfieCapture (9.6.24.2.5)
   - TensorFlowLiteC (2.7.0):
@@ -99,7 +99,7 @@ DEPENDENCIES:
   - GoogleMLKit/TextRecognition
   - GZIP
   - IDentitySDK2.0
-  - OpenSSL-Universal (= 1.1.180)
+  - OpenSSL-Universal (from `https://github.com/krzyzanowskim/OpenSSL.git`, tag `1.1.2301`)
   - TensorFlowLiteSwift (~> 2.7.0)
 
 SPEC REPOS:
@@ -124,11 +124,20 @@ SPEC REPOS:
     - MLKitVision
     - MLKitVisionKit
     - nanopb
-    - OpenSSL-Universal
     - PromisesObjC
     - SelfieCapture
     - TensorFlowLiteC
     - TensorFlowLiteSwift
+
+EXTERNAL SOURCES:
+  OpenSSL-Universal:
+    :git: https://github.com/krzyzanowskim/OpenSSL.git
+    :tag: 1.1.2301
+
+CHECKOUT OPTIONS:
+  OpenSSL-Universal:
+    :git: https://github.com/krzyzanowskim/OpenSSL.git
+    :tag: 1.1.2301
 
 SPEC CHECKSUMS:
   GoogleDataTransport: 6c09b596d841063d76d4288cc2d2f42cc36e1e2a
@@ -151,12 +160,12 @@ SPEC CHECKSUMS:
   MLKitVision: e858c5f125ecc288e4a31127928301eaba9ae0c1
   MLKitVisionKit: 6d2ea9741b262ec0fed2a5a3de521cfa671c6e83
   nanopb: 438bc412db1928dac798aa6fd75726007be04262
-  OpenSSL-Universal: 1aa4f6a6ee7256b83db99ec1ccdaa80d10f9af9b
+  OpenSSL-Universal: ca89c20240633a77c776082ba76b7d90f992bf77
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   SelfieCapture: 406913fe1bce4681fc7baff1cd710fbdea6386da
   TensorFlowLiteC: 50d75ed3640c15dcfbaf88ca4326297b445e00a1
   TensorFlowLiteSwift: fe99748dc3d58ae08bd2ff38658e3ade7038670f
 
-PODFILE CHECKSUM: 751327554c94235e6646a10402aae12ce500e43f
+PODFILE CHECKSUM: 321d7d728501396f05c97d50f07a4a5a54c529e6
 
 COCOAPODS: 1.15.2
