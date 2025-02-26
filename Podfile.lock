@@ -33,8 +33,9 @@ PODS:
     - GoogleUtilities/Logger
   - GTMSessionFetcher/Core (3.5.0)
   - GZIP (1.3.2)
-  - IDCapture (9.6.24.2.5)
-  - IDentitySDK2.0 (9.6.24.2.5):
+  - IDCapture (10.1.4.2.4)
+  - IDentityModels (10.1.4.2.4)
+  - IDentitySDK2.0 (10.1.4.2.4):
     - IDCapture
     - SelfieCapture
   - MLImage (1.0.0-beta5)
@@ -82,9 +83,8 @@ PODS:
     - nanopb/encode (= 2.30910.0)
   - nanopb/decode (2.30910.0)
   - nanopb/encode (2.30910.0)
-  - OpenSSL-Universal (1.1.2301)
   - PromisesObjC (2.4.0)
-  - SelfieCapture (9.6.24.2.5)
+  - SelfieCapture (10.1.4.2.4)
   - TensorFlowLiteC (2.7.0):
     - TensorFlowLiteC/Core (= 2.7.0)
   - TensorFlowLiteC/Core (2.7.0)
@@ -98,8 +98,8 @@ DEPENDENCIES:
   - GoogleMLKit/ImageLabeling
   - GoogleMLKit/TextRecognition
   - GZIP
+  - IDentityModels
   - IDentitySDK2.0
-  - OpenSSL-Universal (from `https://github.com/krzyzanowskim/OpenSSL.git`, tag `1.1.2301`)
   - TensorFlowLiteSwift (~> 2.7.0)
 
 SPEC REPOS:
@@ -112,6 +112,7 @@ SPEC REPOS:
     - GTMSessionFetcher
     - GZIP
     - IDCapture
+    - IDentityModels
     - IDentitySDK2.0
     - MLImage
     - MLKitCommon
@@ -129,16 +130,6 @@ SPEC REPOS:
     - TensorFlowLiteC
     - TensorFlowLiteSwift
 
-EXTERNAL SOURCES:
-  OpenSSL-Universal:
-    :git: https://github.com/krzyzanowskim/OpenSSL.git
-    :tag: 1.1.2301
-
-CHECKOUT OPTIONS:
-  OpenSSL-Universal:
-    :git: https://github.com/krzyzanowskim/OpenSSL.git
-    :tag: 1.1.2301
-
 SPEC CHECKSUMS:
   GoogleDataTransport: 6c09b596d841063d76d4288cc2d2f42cc36e1e2a
   GoogleMLKit: 97ac7af399057e99182ee8edfa8249e3226a4065
@@ -147,8 +138,9 @@ SPEC CHECKSUMS:
   GoogleUtilitiesComponents: 679b2c881db3b615a2777504623df6122dd20afe
   GTMSessionFetcher: 5aea5ba6bd522a239e236100971f10cb71b96ab6
   GZIP: 3c0abf794bfce8c7cb34ea05a1837752416c8868
-  IDCapture: d6fc5608c9739f7283e35e3248edf45172c14aa7
-  IDentitySDK2.0: efd5ff0c99fa02592c92709990d0f8b941b02d55
+  IDCapture: f380a25937089bc8f2f6b5c06ed813d604bc8212
+  IDentityModels: 667f06f9b68169676219f9e311c9b453313f9f1a
+  IDentitySDK2.0: 15acd44f98789cae96482f4f7017b3ab8659cf28
   MLImage: 1824212150da33ef225fbd3dc49f184cf611046c
   MLKitCommon: afec63980417d29ffbb4790529a1b0a2291699e1
   MLKitFaceDetection: 7c0e8bf09ddd27105da32d088fca978a99fc30cc
@@ -160,12 +152,11 @@ SPEC CHECKSUMS:
   MLKitVision: e858c5f125ecc288e4a31127928301eaba9ae0c1
   MLKitVisionKit: 6d2ea9741b262ec0fed2a5a3de521cfa671c6e83
   nanopb: 438bc412db1928dac798aa6fd75726007be04262
-  OpenSSL-Universal: ca89c20240633a77c776082ba76b7d90f992bf77
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
-  SelfieCapture: 406913fe1bce4681fc7baff1cd710fbdea6386da
+  SelfieCapture: 4530bac1caec72e0d08d24a2e059e7b1dbd14ff3
   TensorFlowLiteC: 50d75ed3640c15dcfbaf88ca4326297b445e00a1
   TensorFlowLiteSwift: fe99748dc3d58ae08bd2ff38658e3ade7038670f
 
-PODFILE CHECKSUM: c9c5ff05baba8cd43e7b50f4115638a5ba1fbfea
+PODFILE CHECKSUM: a5499f214f9afea6462a8899ec7d8e3d7a1af4fb
 
 COCOAPODS: 1.16.2

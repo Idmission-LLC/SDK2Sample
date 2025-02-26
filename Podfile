@@ -7,13 +7,12 @@ target 'SDK2Sample' do
 
   # Pods for SDK2Sample
     pod 'IDentitySDK2.0'
+    pod 'IDentityModels'
     pod 'TensorFlowLiteSwift', '~> 2.7.0'
     pod 'GoogleMLKit/TextRecognition'
     pod 'GoogleMLKit/FaceDetection'
     pod 'GoogleMLKit/ImageLabeling'
     pod 'GZIP'
-    pod 'OpenSSL-Universal', :git => 'https://github.com/krzyzanowskim/OpenSSL.git', :tag => '1.1.2301'
-
 end
 
 post_install do |installer|
