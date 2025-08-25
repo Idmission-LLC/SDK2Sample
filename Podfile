@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+ platform :ios, '15.6'
 
 target 'SDK2Sample' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -33,3 +33,17 @@ post_install do |installer|
         end
     end
 end
+
+# install! 'cocoapods',
+#   :git => {
+#     :shallow_clone => false
+#   }
+
+# platform :ios, '12.0'
+# use_frameworks!
+
+# target 'YourAppTargetName' do
+#   # Example of your private pod
+# pod 'IDentitySDK2.0', :git => 'https://gitlab.idmission.com/apps/sdk2.0/ios/cocoapods/identitysdk2.0.git', :tag => '10.1.16.2.2'
+# pod 'IDentityModels', :git => 'https://gitlab.idmission.com/apps/sdk2.0/ios/cocoapods/identitysdk2.0.git', :tag => '10.1.16.2.2'
+# end

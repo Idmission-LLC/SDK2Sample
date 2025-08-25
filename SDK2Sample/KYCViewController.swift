@@ -17,13 +17,15 @@ class KYCViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    //Initialize SDK
+    //MARK: - Step-3: SDK Core Functions
     @IBAction func CompleteKYC(_ sender:Any) {
         
         // Start Enroll Customer with personalData & the default options, presenting it from view controller(self)
-        let personalData = PersonalCustomerCommonRequestEnrollDataV3(uniqueNumber: "12345")
-        let options = AdditionalCustomerWFlagCommonDataV3()
-        IDentitySDK.idValidationAndCustomerEnroll(from: self, personalData: personalData, options: options) { result in
+        let commonCustomerData = CommonCustomerDataRequest()
+        let personalData = PersonalCustomerCommonRequestEnrollData(uniqueNumber: "1234")
+        let options = AdditionalCustomerWFlagCommonData()
+
+        IDentitySDK.idValidationAndCustomerEnroll(from: self, customerDataOptions: commonCustomerData, personalData: personalData, options: options) { result in
             switch result {
             case .success(let customerEnrollResult):
                 

@@ -19,6 +19,10 @@ class ResultScreenFor50: UIView {
     public var delegate : ResultScreenFor50Delegate?
     
     //CapturedResult
+//    @IBOutlet weak var capturedResultLabel: UILabel!
+//    @IBOutlet weak var capturedResultLabel_HeightConstraint: NSLayoutConstraint!
+//    @IBOutlet weak var capturedResultLabel_TopConstraint: NSLayoutConstraint!
+//    @IBOutlet weak var capturedResultLabel_BottomConstraint: NSLayoutConstraint!
     @IBOutlet weak var capturedResultContainerView: UIView!
     @IBOutlet weak var capturedResultContainerView_HeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var capturedResultSelfieImageView: UIImageView!
@@ -36,6 +40,7 @@ class ResultScreenFor50: UIView {
     @IBOutlet weak var capturedResultSexLabel: UILabel!
     
     //ProcessedResult
+//    @IBOutlet weak var processedResultHeadingLabel: UILabel! //Not Attached As like MEdium & Lite
     @IBOutlet weak var processedResultActivityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var processedResultLabel: UILabel!
     
@@ -49,9 +54,12 @@ class ResultScreenFor50: UIView {
     @IBOutlet weak var processedResultIdExpiryDateLabel: UILabel!
     @IBOutlet weak var processedResultAdressLabel: UILabel!
     @IBOutlet weak var processedResultSexLabel: UILabel!
+//    @IBOutlet weak var processedResultIdImageView_SatckView: UIStackView!
     @IBOutlet weak var processedResultIdFrontImageView: UIImageView!
     @IBOutlet weak var processedResultIdBackImageView: UIImageView!
-    
+//    @IBOutlet weak var processedResultIdFrontImageView_HeightConstraint: NSLayoutConstraint!
+//    @IBOutlet weak var processedResultIdBackImageView_HeightConstraint: NSLayoutConstraint!
+
     // DMV Element
     @IBOutlet weak var procResltDMV_SatckView: UIStackView!
     @IBOutlet weak var procResltDMV_SatckView_HeightConstraint: NSLayoutConstraint!
@@ -122,6 +130,7 @@ class ResultScreenFor50: UIView {
         //Do the initial setup, and populate this XIB with your custom data
         addDesignToUI()
         populateThisXibWithData(customerEnrollResult: customerEnroll_Result)
+        self.submitAPI(customerEnroll_Result: customerEnroll_Result)
     }
     
     private func addDesignToUI(){
@@ -157,7 +166,6 @@ class ResultScreenFor50: UIView {
     
 }
 
-
 // MARK: -  Load XIB From Local Extracted data
 extension ResultScreenFor50 {
     
@@ -175,11 +183,9 @@ extension ResultScreenFor50 {
             populateFromDataBarcode(customerEnroll_Result: customerEnrollResult)
         } else if let backSideData = customerEnrollResult?.back, backSideData.shouldHaveBarcode {
             populateFromDataBarcode(customerEnroll_Result: customerEnrollResult)
+        } else {
+            populateFromDataBarcode(customerEnroll_Result: customerEnrollResult)
         }
-        
-        //3. Call Submit API
-        self.submitAPI(customerEnroll_Result: customerEnrollResult)
-        
     }
     
     private func populateFromDataMRZ(customerEnroll_Result : CustomerEnrollResult?){
@@ -360,13 +366,14 @@ extension ResultScreenFor50 {
         
 }
 
-// MARK: -  Load XIB From Server Extracted Data
+//MARK: - Step-4: SDK Final Submit
+//MARK: - Load XIB From Server Extracted Data
 extension ResultScreenFor50{
     
     func submitAPI(customerEnroll_Result : CustomerEnrollResult?) {
         
         //Populate the Processed Result Data
-        customerEnroll_Result?.submit { result in
+        customerEnroll_Result?.finalSubmit { result in
             self.processedResultActivityIndicator.stopAnimating()
             self.processedResultActivityIndicator.isHidden = true
             
@@ -463,7 +470,7 @@ extension ResultScreenFor50{
         
     }
     
-    private func show_DMV_AMKKYC_CriRecSexOff_Result(host_Data:HostdataResponseV3?) {
+    private func show_DMV_AMKKYC_CriRecSexOff_Result(host_Data:HostdataResponse?) {
                 
         let resultDMV      : String? = host_Data?.textMatchResult?.thirdPartyVerificationResultDescription
         let resultCountPEP : String? = host_Data?.pepresult?.resultCountPEP
@@ -647,7 +654,7 @@ extension ResultScreenFor50{
 //MARK: - Helper Methods
 extension ResultScreenFor50{
 
-    private func getAddressFromResponse(response:CustomerEnrollResponseV3) -> String? {
+    private func getAddressFromResponse(response:CustomerEnrollResponse) -> String? {
         
         if let address = response.responseCustomerData?.extractedPersonalData?.address {
             return address

@@ -38,7 +38,7 @@ extension ViewController {
                 self.displayAlert(title: "Error", Message: "SDK initialization credentials are not correct")
             } else {
                 print("!!! initialize SDK SUCCESS")
-                self.performSegue(withIdentifier: "CompleteKYC_SegueID", sender: nil)
+//                self.performSegue(withIdentifier: "CompleteKYC_SegueID", sender: nil)
             }
         }
         
